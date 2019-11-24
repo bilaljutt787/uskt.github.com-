@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>google</title>
+<style>*{padding:0px; margin:0px;}
+#head{background:lightblue; color: blue;font-size:30px;  }
+#butt{ width:200px; height:100%; background:lightblue; font-size:30px; position:relative; border:1px solid white}
+#butt:hover{background:blue ; }
+#butt.selected{color:black; font-size:25px;text-decoration:none;}
+#slider{
+	width:100%;
+	height:400px;
+	position:absolute;
+
+	background-image: url(images.jpg);
+	background-size: 100% 100%;
+	
+	animation: slide 10s infinite;
+}
+@keyframes slide{
+	25%{
+		background: url(201907181311582984.jpg);
+		background-size: 100% 100%;
+	}
+	50%{
+		background: url(201911041440330792.jpg);
+		background-size: 100% 100%;
+	}
+	100%{
+		background: url(201908071207257800.jpg);
+		background-size: 100% 100%;
+	}
+	
+}
+#slider.colo{ color:blue; font-size:20px; }
+#sidebar{background:lightgrey; margin-top:425px; color:blue; width:20%; margin-left:20px;}
+#footer{ background:lightblue;padding:30px; margin-top:1000px; }
+#newsletter{float:right; margin-top:-140px;}
+input [type="text"]
+{
+	border:none;
+	outline:none;
+	width:340px;
+	height:4px;
+	border-radius: 25% 0% 0% 25%;
+}
+</style>
+</head>
+<body>
+<div id="head">
+<h4>UNIVERSITY OF SIALKOT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ستاروں سے آگے جہاں اور بھی ہے &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="butt">Apply now</button> 
+ </h4>
+</div>
+<div id="slider">
+<h1 class="colo">UNIVERSITY &nbsp;&nbsp;OF &nbsp;&nbsp; SIALKOT </h1>
+<h1 class="colo"> </h1>
+<h1 class="colo"> </h1>
+<a class="selected" href="#">Life at USKT</a>
+<a class="selected" href="#">About Us</a>
+<a class="selected" href="#">Contact Us</a>
+</div>
+<div id="sidebar">
+<h1>Discover USKT</h1>
+<hr>
+<h1>Life USKT</h1>
+<hr>
+<h1>Research</h1>
+<hr>
+<h1>Admissions</h1>
+<hr>
+<h1>About Us</h1>
+</div>
+<div id="footer">
+<h3>UNIVERSITY </h3>
+<h3>OF </h3>
+<h3>SIALKOT</h3><br>
+<h5>Email: info@uskt.edu.pk<br>
+Phone: +92-523575518-20<br>
+<h3><center>Copyright © The Regents of the University of Sialkot</center></h3>
+<div id="newsletter">
+<h4>Subscribe to Our Newsletter</h4><br>
+<input type="text" placeholder="e-mail here....">
+<input type="submit" vlaue="search" >
+</div>
+</div>
+</body>
+</html>
